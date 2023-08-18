@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
+        </nav>
+    </header>
+
+    <main>
+    <section id="listas">
+      <h2>Listas</h2>
+
+    <ol>
+        <li>Corretivo</li>
+        <li>Blush</li>
+        <li>Gloss</li>
+        <li>Pó</li>
+        <li>Rimel</li>
+    </ol>
+
+
+    <ul>
+        <li>Mom jeans</li>
+        <li>Wide leg</li>
+        <li>Calça reta</li>
+        <li>Jogger</li>
+        <li>Skinny</li>
+    </ul>
+    </section>
+    
+    <section id="tabelas">
+        <h2>Tabelas</h2>
+        <main>
+            <table>
+                <tr>
+                    <th>PRODUTO</th>
+                    <th>MARCA</th>
+                    <th>VALOR</th>
+                </tr>
+                <tr>
+                    <td>Corretivo</td>
+                    <td>ruby rose</td>
+                    <td>R$20.00</td>
+                </tr>
+                <tr>
+                    <td>Blush</td>
+                    <td>Bruna Tavares</td>
+                    <td>R$30,00</td>
+                </tr>
+                <tr>
+                    <td>Rímel</td>
+                    <td>Quem disse b</td>
+                    <td>R$47,00</td>
+                </tr>
+                <tr>
+                    <td>Pó</td>
+                    <td>Laura Mercier</td>
+                    <td>R$260,00</td>
+                </tr>
+            </table>
+        </main>
+    </section>
+
+    <section id="Formulários">
+        <h2>Formulário</h2>
+        <form action="">
+            <fieldset>
+                <legend>Formulária de Inscrição</legend>
+                <div>
+                    <label for="nome">Nome Completo</label>
+                    <input id= "nome" type="text">
+                </div>
+
+                <div>
+                <label for="data">Data de Nascimento</label>
+                <input id= "data" type="date">
+                </div>
+
+                <div>
+                    <label for="cpf">CPF</label>
+                    <input id= "cpf" type="number">
+                </div>
+
+                <div>
+                    <label for="sexo">Sexo</label>
+                    <select name="Sexo" id="estado">
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                    </select>
+                </div>
+                <button>registrar</button>
+            </fieldset>
+        </form>
+    </section>
+    </main>
+</body>
+</html>
